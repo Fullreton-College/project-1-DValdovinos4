@@ -1,0 +1,23 @@
+Domanik Valdovinos 
+Professor Mukhopadhyay
+CSCI 123 F
+15 April 2026
+Project #1 Write-Up
+
+Introduction:
+In this project I was given a file called holmes.txt which had a paragraph from one of Sherlock Holme’s books. With this text file we had to write a code to find the frequency of each word, we were told to use vectors when writing the code. To make the code cleaner we had to make it modular. While the only task that we were given was to find the frequency of each word, there were other things that needed to be done before we could do that. 
+
+Design: 
+
+To make this code modular I had to split all of my tasks into different functions. After doing this I ended up with four outside functions and one main function. The first function that I created was a getwords function, the idea of this function was to take the files words and store it into a vector, after that it would take those words and clean them by removing the punctuation and making all the words lowercase to make sure the same words are counted even if one is uppercase. The second function that I created was sortWords, this function's only goal was to rearrange the words of the file into alphabetical order, which would make it easier to count the frequencies of each word. The third function was getWordCounts, and this function was used to find when a word was repeated and when a word was not repeated, in the end it would return the wordCount of each word. The last function was printWordCount, and this function was used to output each word and how many times it was used in the text file that we had gotten. After writing out the code for all of the outside functions, I called them into the main function, which made the main function look organized. 
+
+Development: 
+Repository Url: https://github.com/Fullreton-College/project-1-DValdovinos4/new/main
+Code name: Project.cpp 
+Yes, in this project I did get help from ai, the way that I used ai was for help in explaining how vectors worked. It was one of the main parts that I was struggling with when trying to design the structure of the code and being able to understand why and how the code works is very important. Another thing that I used ai with was to help me with using pairs with vectors, since I had never used a pair and didn’t know how I was supposed to incorporate it into my code. 
+
+Conclusion: 
+This project has really helped me get a stronger understanding of the vectors, it was difficult at first but after putting more time aside to understand them I have realized why they are so important for this project. While there are many ways that you can complete this project I feel that the way that I decided was a very effective one. Separating the functions allowed me to focus on just one problem at a time and understand when and why something was not working. Overall, this project taught me things about C++ that I didn’t know, and allowed me to build upon the things I was familiar with. 
+
+
+
